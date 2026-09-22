@@ -12,6 +12,7 @@ dependencies:
   fpdart: "^1.2.0"
 
 dev_dependencies:
+  test: ">=1.15.0 <2.0.0"
   lints: "^6.0.0"
   flutter_iconica_analysis:
     hosted: "https://forgejo.internal.iconica.nl/api/packages/internal/pub/"
