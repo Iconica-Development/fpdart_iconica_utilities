@@ -1,0 +1,6 @@
+include: "package:flutter_iconica_analysis/analysis_options.yaml"
+
+linter:
+  rules:
+    avoid_annotating_with_dynamic: false
+    avoid_final_parameters: false
