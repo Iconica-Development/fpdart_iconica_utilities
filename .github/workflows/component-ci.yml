@@ -1,0 +1,14 @@
+name: "Iconica Standard Component CI Workflow"
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  call-global-iconica-workflow:
+    uses: "Iconica-Development/.github/.github/workflows/component-ci.yml@0.3.1"
+    secrets: "inherit"
+    permissions: "write-all"
+    with:
+      subfolder: '.'
+      flutter_version: "3.47.1"
