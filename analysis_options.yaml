@@ -2,5 +2,9 @@ include: "package:flutter_iconica_analysis/analysis_options.yaml"
 
 linter:
   rules:
+    # Requires @immutable which comes from Flutter
+    avoid_equals_and_Hash_code_on_mutable_classes: false
+
     avoid_annotating_with_dynamic: false
     avoid_final_parameters: false
+    
