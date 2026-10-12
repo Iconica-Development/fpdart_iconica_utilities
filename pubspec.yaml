@@ -1,6 +1,6 @@
 name: "fpdart_iconica_utilities"
 description: "Useful utilities for projects using fpdart"
-version: "0.0.1"
+version: "0.1.0"
 repository: "https://github.com/Iconica-Development/fpdart_iconica_utilities"
 homepage: "https://iconica.app"
 publish_to: "https://forgejo.internal.iconica.nl/api/packages/internal/pub"
